@@ -1,0 +1,130 @@
+* {
+    font-family: "Poppins";
+  }
+  
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c80404;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .screen-1 {
+    background: #f1f7fe;
+    height: 300px;
+    width: 300px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    gap: 1em;
+  }
+  
+  .screen-1 .logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px; /* Added margin */
+  }
+  
+  .screen-1 .logo-title {
+    color: #333;
+    font-size: 1em;
+    margin: 5px 0; /* Added margin */
+  }
+  
+  .screen-1 .email {
+    background: white;
+    width: 250px;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+  }
+  
+  .screen-1 .email input {
+    outline: none;
+    border: none;
+  }
+  
+  .screen-1 .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .screen-1 .login {
+    padding: 1em;
+    width: 250px;
+    background: #c80404;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+   /* Added margin */
+  }
+
+  /* Add this to your styles.css */
+/* Add this to your styles.css */
+/* Add this to your styles.css */
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.timer {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: red;
+}
+
+.waiting-message {
+  color: #333;
+  margin: 10px 0;
+}
+
+.h3 {
+  color: #333;
+  font-size: 0.5em;
+}
+
+.qualification-message {
+  text-align: center;
+  margin-top: 1px; /* Adjust the margin as needed */
+}
+
+.button-style {
+  background-color: #c80404; /* Adjust the background color as needed */
+  color: #fff; /* Adjust the text color as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  background-color: #e44d4d; /* Adjust the hover background color as needed */
+}
+
+.waiting-ss {
+  text-align: center;
+  color: black;
+  font-size: 0.7em;
+  margin: 10px 0;
+}
