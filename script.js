@@ -41,7 +41,7 @@ function parseCSV(csvData) {
 // Function to handle the timer
 function handleTimer() {
     var currentDate = new Date();
-    var allowedDate = new Date("2023-12-16T19:45:00");  // Misalkan hari tanggal 16 - 12 - 2023 jam 1 siang
+    var allowedDate = new Date("2023-12-17T18:01:00");  // Misalkan hari tanggal 16 - 12 - 2023 jam 1 siang
 
     var resultHeader = document.getElementById("resultHeader");
     var timerContainer = document.getElementById("timerContainer");
@@ -90,7 +90,7 @@ function handleTimer() {
 // Function to update the timer
 function updateTimer() {
     var currentDate = new Date();
-    var allowedDate = new Date("2023-12-16T19:45:00");  // Misalkan hari tanggal 16 - 12 - 2023 jam 1 siang
+    var allowedDate = new Date("2023-12-17T18:01:00");  // Misalkan hari tanggal 16 - 12 - 2023 jam 1 siang
     var timeDifference = allowedDate - currentDate;
 
     var hours = Math.floor(timeDifference / (1000 * 60 * 60));
